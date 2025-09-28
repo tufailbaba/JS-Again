@@ -46,7 +46,29 @@ let softcopy = [...popularTeas]
 
 let newarr = ["Tufail" , "Baba", ]
 
-newarr[0]
-console.log(newarr);
+const newarr1 = newarr[1]
+// console.log(newarr1);
+
+
+let fruits = ["Apple", "Banana" ,"Mango"]
+
+fruits [1] = ("Grapes")
+// console.log(fruits);
+
+let fruitseaten = ["Apple", "Mango" ]
+let fruiteaten = ["Grapes"]
+
+fruiteaten.push(...fruitseaten)
+// console.log(fruiteaten);
+
+let allfruits = [...fruiteaten, ...fruitseaten]
+// console.log(allfruits);
+
+fruiteaten.pop()
+console.log(fruiteaten);
+
+
+
+
 
 

@@ -5,16 +5,16 @@ let teaFl = new Array ("Green tea" , "Black  Tea" ,"Pink Tea")
 const first = teaflavors[0]
 
 
-console.log(teaFl);
-console.log(teaflavors);
-console.log(first);
+// console.log(teaFl);
+// console.log(teaflavors);
+// console.log(first);
 
 
 let teaTypes = ["Herbal Tea" , "White Tea " , "Masala Chai"]
 
 teaTypes[1] = "Jasmine tea";
 
-console.log(teaTypes);
+// console.log(teaTypes);
 
 let citiesvisted = ["Mumbai" , "Sydney"]
 
@@ -31,12 +31,22 @@ citiesvisted.push(...AontherCitiesVisited)
 let allcitiesvisited = [...citiesvisted, ...AontherCitiesVisited]
 
 
-console.log(allcitiesvisited);
+// console.log(allcitiesvisited);
 
 let TeaOrders = ["Chai" , "Ice tea", "mathca" ,"earl grey"]
 
-TeaOrders.pop (2);
-console.log(TeaOrders);
+TeaOrders.pop ();
+// console.log(TeaOrders);
 
+
+let popularTeas = ["Green tea" , 'oolong tea','chai']
+
+let softcopy = [...popularTeas]
+// console.log(softcopy);
+
+let newarr = ["Tufail" , "Baba", ]
+
+newarr[0]
+console.log(newarr);
 
 

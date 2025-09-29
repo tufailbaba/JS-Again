@@ -62,11 +62,30 @@ fruiteaten.push(...fruitseaten)
 // console.log(fruiteaten);
 
 let allfruits = [fruiteaten  + "" + fruitseaten]
-console.log(allfruits);
+// console.log(allfruits);
 
 // fruiteaten.pop()
 // console.log(fruiteaten);
 
+let europeanCities = ["Paris" , "Rome" ]
+
+let asianCities = ["Tokyo", "Bangkok"]
+
+// let worldCities = [...europeanCities, ...asianCities]
+let worldCities = europeanCities.concat(asianCities)
+// let worldCities = europeanCities + asianCities
+
+// console.log(worldCities);
+
+let teaMenu = ["Masala chai", "Oolong tea", "Green tea" , "Early grey" ]
+
+let menuLength = teaMenu.length
+// console.log(menuLength);
+
+let cityBucketlist = ["Kyoto", "London", "Cape Town", "Vancouver"]
+
+let isLondinInlist = cityBucketlist.includes("London");
+// console.log(isLondinInlist);
 
 
 

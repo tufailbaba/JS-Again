@@ -71,8 +71,8 @@ let europeanCities = ["Paris" , "Rome" ]
 
 let asianCities = ["Tokyo", "Bangkok"]
 
-// let worldCities = [...europeanCities, ...asianCities]
-let worldCities = europeanCities.concat(asianCities)
+let worldCities = [...europeanCities, ...asianCities]
+// let worldCities = europeanCities.concat(asianCities)
 // let worldCities = europeanCities + asianCities
 
 // console.log(worldCities);
@@ -86,7 +86,12 @@ let cityBucketlist = ["Kyoto", "London", "Cape Town", "Vancouver"]
 
 let isLondinInlist = cityBucketlist.includes("London");
 // console.log(isLondinInlist);
-
+let arr = ["1","3"]
+// arr.push("2")
+// arr.reverse()
+// arr.shift();
+arr.slice()
+console.log( arr);
 
 
 

@@ -61,11 +61,13 @@ let fruiteaten = ["Grapes"]
 fruiteaten.push(...fruitseaten)
 // console.log(fruiteaten);
 
-let allfruits = [...fruiteaten, ...fruitseaten]
-// console.log(allfruits);
+let allfruits = [fruiteaten  + "" + fruitseaten]
+console.log(allfruits);
 
-fruiteaten.pop()
-console.log(fruiteaten);
+// fruiteaten.pop()
+// console.log(fruiteaten);
+
+
 
 
 

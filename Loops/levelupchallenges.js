@@ -148,6 +148,21 @@ let teacollection = ["early grey" , "green tea", "chai", "oolong tea"];
 let availableteas = []
 
 teacollection.forEach(tea => {
-    console.log(tea);
+    // console.log(tea);
     
 });
+
+//Another problem
+
+let myNumbers = [2,5,7,9]
+let  doubledNumbers = []
+for (let i = 0; i < myNumbers.length; i++) {
+
+    if  (numbers[i] ===7){
+        continue;
+    }
+
+doubledNumbers.push(numbers[i]*2)
+
+}
+console.log(doubledNumbers);

@@ -92,11 +92,62 @@ let Teatypes = ["Green tea", "Black tea", "Herbal tea", "Chai"];
 let PreferresTeas = [];
 
 for (const Tea of Teatypes) {
-  if (Tea === 'Green tea') {
+  if (Tea === "Green tea") {
     continue;
-    
-  }  
+  }
   PreferresTeas.push(Tea);
 }
-console.log(PreferresTeas);
+// console.log(PreferresTeas);
 
+//For-in//
+
+let citiesPopulation = {
+  "London": 8900000,
+  "New york": 8400000,
+  "Paris" : 2200000,
+  "Berlin": 3500000,
+};
+
+let CityPopulations = {};
+// console.log(Object.values(citiesPopulation));
+for (const city in citiesPopulation) {
+    if (city === "Berlin") {
+        break;
+    }
+    CityPopulations[city]=citiesPopulation[city]
+    // console.log(citiesPopulation[city]);
+    
+    
+}
+// console.log(CityPopulations);
+
+let worldCities = {
+    "Sydney" :5000000,
+     "Tokyo" : 9000000,
+     "Berlin" : 35000000,
+     "Paris" : 2200000,
+
+}
+let largeCities = {}
+
+for (const city in worldCities) {
+  if (worldCities[city] < 3000000){
+    continue;
+  }
+    
+    largeCities[city] = worldCities[city]
+}
+
+// console.log(largeCities);
+
+//For each
+
+
+let teacollection = ["early grey" , "green tea", "chai", "oolong tea"];
+
+let availableteas = []
+
+teacollection.forEach(tea => {
+    console.log(tea);
+    
+});

@@ -31,6 +31,7 @@ for (let i = 1; i <= 5; i++) {
 }
 // console.log(result);
 // console.log(Factorials);
+//For in
 
 let obj = {
   Harry: 90,
@@ -51,9 +52,26 @@ let myobj = {
     musi : 100,
 }
 
-for (  let a  in myobj) {
-    console.log("Your makrs are " + a + myobj [a] );
+// for (  let a  in myobj) {
+//     console.log("Your makrs are " + a + myobj [a] );
     
    
     
-}
+// }
+
+//For each
+
+let num = [2,3,4,5,6]
+num.forEach(element => {
+    console.log(element*element);
+    
+});
+
+
+let arr = ["Tufail ", "Baba" , "Ahmad"]
+
+arr.forEach(element => {
+    console.log(element + "!");
+    
+    
+});

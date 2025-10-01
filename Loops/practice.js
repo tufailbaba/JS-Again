@@ -75,3 +75,10 @@ arr.forEach(element => {
     
     
 });
+// Array.from
+
+
+let name = 'Tufail'
+let arr1 = Array.from(name)
+console.log(arr1);
+

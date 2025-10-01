@@ -40,6 +40,20 @@ let obj = {
   Tufail: 90,
 };
 
-for (let a in obj) {
-  console.log("Marks of " + a + " are " + obj[a]);
+// for (let a in obj) {
+//   console.log("Marks of " + a + " are " + obj[a]);
+// }
+
+
+let myobj = {
+    tufi : 100,
+    safi : 100,
+    musi : 100,
+}
+
+for (  let a  in myobj) {
+    console.log("Your makrs are " + a + myobj [a] );
+    
+   
+    
 }

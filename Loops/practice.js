@@ -85,15 +85,20 @@ let arr1 = Array.from(name)
 //for of
 
 for (let i of num){
-    console.log(i);
+    // console.log(i);
     
 }
 
 let newarr = ["Tufail" , 1, "Ahmad" , 2 , "Baba", 3]
 
 for (let element of newarr) {
-    console.log(element);
+    // console.log(element);
     
 
 
+}
+//for in
+
+for (let element in newarr) {
+    console.log(newarr[element]);
 }

@@ -63,7 +63,7 @@ let myobj = {
 
 let num = [2,3,4,5,6]
 num.forEach(element => {
-    console.log(element*element);
+    // console.log(element*element);
     
 });
 
@@ -71,7 +71,7 @@ num.forEach(element => {
 let arr = ["Tufail ", "Baba" , "Ahmad"]
 
 arr.forEach(element => {
-    console.log(element + "!");
+    // console.log(element + "!");
     
     
 });
@@ -80,5 +80,20 @@ arr.forEach(element => {
 
 let name = 'Tufail'
 let arr1 = Array.from(name)
-console.log(arr1);
+// console.log(arr1);
 
+//for of
+
+for (let i of num){
+    console.log(i);
+    
+}
+
+let newarr = ["Tufail" , 1, "Ahmad" , 2 , "Baba", 3]
+
+for (let element of newarr) {
+    console.log(element);
+    
+
+
+}

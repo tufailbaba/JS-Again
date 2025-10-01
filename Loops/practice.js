@@ -1,16 +1,14 @@
-for ( let i =0 ; i<=5 ; i++){
-    // console.log(i);
-    
+for (let i = 0; i <= 5; i++) {
+  // console.log(i);
 }
 //
 //Program to add n natural numbers
 
 let sum = 0;
-let n=5;
+let n = 5;
 
-for ( let i = 0; i<=n ; i++){
-    sum = sum +i
-
+for (let i = 0; i <= n; i++) {
+  sum = sum + i;
 }
 // console.log(sum);
 
@@ -24,12 +22,24 @@ for ( let i = 0; i<=n ; i++){
 // console.log("Sum of first " + N + "Natural number is" + Sum );
 
 //
-let Factorials = []
+let Factorials = [];
 let result = 1;
 
-for (let i=1; i<=5; i++){
-    result= result*i;
-    Factorials.push(result)
+for (let i = 1; i <= 5; i++) {
+  result = result * i;
+  Factorials.push(result);
 }
 // console.log(result);
-console.log(Factorials);
+// console.log(Factorials);
+
+let obj = {
+  Harry: 90,
+  sahoor: 90,
+  Tung: 90,
+  Baba: 90,
+  Tufail: 90,
+};
+
+for (let a in obj) {
+  console.log("Marks of " + a + " are " + obj[a]);
+}

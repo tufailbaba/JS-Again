@@ -99,6 +99,35 @@ for (let element of newarr) {
 }
 //for in
 
-for (let element in newarr) {
-    console.log(newarr[element]);
+// for (let element in newarr) {
+//     console.log(newarr[element]);
+// }
+
+//functions
+
+function  saymyname(){
+    console.log('T');
+    console.log('u');
+    console.log('f');
+    console.log('a');
+    console.log('i');
+    console.log('l');
+    
 }
+// saymyname();
+
+function addTwoNumbers (num1, num2){
+//  console.log(num1 + num2);
+ 
+}
+// addTwoNumbers(3,4)
+
+function loginUser (username){
+    if (!username){
+        console.log("please enter username");
+        return 
+    }
+    return`${username} Just logged in`
+
+}
+console.log(loginUser ())

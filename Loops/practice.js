@@ -45,57 +45,45 @@ let obj = {
 //   console.log("Marks of " + a + " are " + obj[a]);
 // }
 
-
 let myobj = {
-    tufi : 100,
-    safi : 100,
-    musi : 100,
-}
+  tufi: 100,
+  safi: 100,
+  musi: 100,
+};
 
 // for (  let a  in myobj) {
 //     console.log("Your makrs are " + a + myobj [a] );
-    
-   
-    
+
 // }
 
 //For each
 
-let num = [2,3,4,5,6]
-num.forEach(element => {
-    // console.log(element*element);
-    
+let num = [2, 3, 4, 5, 6];
+num.forEach((element) => {
+  // console.log(element*element);
 });
 
+let arr = ["Tufail ", "Baba", "Ahmad"];
 
-let arr = ["Tufail ", "Baba" , "Ahmad"]
-
-arr.forEach(element => {
-    // console.log(element + "!");
-    
-    
+arr.forEach((element) => {
+  // console.log(element + "!");
 });
 // Array.from
 
-
-let name = 'Tufail'
-let arr1 = Array.from(name)
+let name = "Tufail";
+let arr1 = Array.from(name);
 // console.log(arr1);
 
 //for of
 
-for (let i of num){
-    // console.log(i);
-    
+for (let i of num) {
+  // console.log(i);
 }
 
-let newarr = ["Tufail" , 1, "Ahmad" , 2 , "Baba", 3]
+let newarr = ["Tufail", 1, "Ahmad", 2, "Baba", 3];
 
 for (let element of newarr) {
-    // console.log(element);
-    
-
-
+  // console.log(element);
 }
 //for in
 
@@ -105,29 +93,39 @@ for (let element of newarr) {
 
 //functions
 
-function  saymyname(){
-    console.log('T');
-    console.log('u');
-    console.log('f');
-    console.log('a');
-    console.log('i');
-    console.log('l');
-    
+function saymyname() {
+  console.log("T");
+  console.log("u");
+  console.log("f");
+  console.log("a");
+  console.log("i");
+  console.log("l");
 }
 // saymyname();
 
-function addTwoNumbers (num1, num2){
-//  console.log(num1 + num2);
- 
+function addTwoNumbers(num1, num2) {
+  //  console.log(num1 + num2);
 }
 // addTwoNumbers(3,4)
 
-function loginUser (username){
-    if (!username){
-        console.log("please enter username");
-        return 
-    }
-    return`${username} Just logged in`
-
+function loginUser(username) {
+  if (!username) {
+    // console.log("please enter username");
+    return;
+  }
+  // return`${username} Just logged in`
 }
-console.log(loginUser ())
+
+function subtwonums(numm1, numm2) {
+  console.log(numm1 - numm2);
+}
+// console.log(subtwonums(50,10));
+
+// console.log(loginUser ())
+
+function calculateCartPrice(...number1)
+//spread//
+ {
+  return number1;
+}
+console.log(calculateCartPrice(200, 400, 500));

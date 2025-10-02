@@ -28,6 +28,13 @@ const addthree = (numm1, numm2 ,num3)=>num3+numm1+numm2;
 let Arr = [5,6,1,23]
 
 Arr.forEach(element => {
-    console.log(element);
+    // console.log(element);
     
 });
+
+let person = { name: "Ali", age: 20 };
+
+for (let key in person) {
+  console.log(key, ":", person[key]);
+}
+

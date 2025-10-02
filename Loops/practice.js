@@ -128,4 +128,6 @@ function calculateCartPrice(...number1)
  {
   return number1;
 }
-console.log(calculateCartPrice(200, 400, 500));
+// console.log(calculateCartPrice(200, 400, 500));
+
+
